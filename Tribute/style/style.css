@@ -1,0 +1,67 @@
+#main {
+  background: rgb(206, 212, 216);
+  align-items: center;
+}
+
+#title {
+  text-align: center;
+  padding: 50px;
+  text-shadow: 5px 5px 10px white;
+  /* font-size: 7vh; */
+}
+
+#img-div {
+  padding:10px;
+  background-color: grey;
+  margin: 0 auto; 
+}
+
+#image {
+  max-width: 100%;
+  height: auto; 
+  display: block; 
+}
+
+#img-caption {
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: black;
+}
+
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 25px 25px;
+  margin: 11px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+#tribute-info h2 {
+  padding: 0px 0px 20px;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+   text-shadow: 5px 5px 10px black;
+}
+
+#tribute-info p {
+  text-align: center;
+}
+
+#tribute-info span {
+  font-weight: bolder;
+}
+
+#tribute-link{
+  font-size: 20px;
+  text-decoration: none;
+  padding: 50px;
+}
+
+#tribute-link:hover {
+  color:blue;
+}
