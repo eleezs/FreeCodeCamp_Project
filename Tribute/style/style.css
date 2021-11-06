@@ -1,67 +1,99 @@
-#main {
-  background: rgb(206, 212, 216);
+.container-fluid {
+  background-color: brown;
+}
+
+.nav-header {
+  position: fixed;
+  width: 100%;
+  background-color: brown;
+  /* position: relative; */
+}
+
+#header-img {
+  width: 80px;
+}
+
+.col1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.col-2 {
+  padding-top: 30px;
+}
+
+.col-2 #header_description {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.col {
+  display: flex;
+  justify-content: end;
+  padding: 30px;
+}
+
+#nav-bar ul {
+  display: flex;
+  flex-direction: inline;
+  list-style: none;
+}
+
+.nav-link:hover {
+  color: aquamarine;
+}
+
+.container {
+  margin-top: 0px;
+  padding-top: 180px;
+  background-color: rgb(190, 190, 190);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.center-text {
+  display: flex;
+  padding: 20px;
+}
+
+#email {
+  width: 350px;
+  border-radius: 5px;
+  border: none;
+}
+
+#submit {
+  margin-left:10px;
+  background-color: blue;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container2 {
+  padding-top: 20px;
+  background-color: rgb(190, 190, 190);
+  display: flex;
   align-items: center;
 }
 
-#title {
-  text-align: center;
-  padding: 50px;
-  text-shadow: 5px 5px 10px white;
-  /* font-size: 7vh; */
+p{
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#img-div {
-  padding:10px;
-  background-color: grey;
-  margin: 0 auto; 
+small {
+  width: 50%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#image {
-  max-width: 100%;
-  height: auto; 
-  display: block; 
+#video {
+  padding-bottom: 10px;
 }
 
-#img-caption {
-  font-size: 17px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   color: black;
-}
-
-#tribute-info {
+.container3 {
+  padding-top: 20px;
+  background-color: rgb(190, 190, 190);
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 25px 25px;
-  margin: 11px;
-  margin-top: 50px;
-  margin-bottom: 80px;
-}
-
-#tribute-info h2 {
-  padding: 0px 0px 20px;
-  margin: 10px auto;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-   text-shadow: 5px 5px 10px black;
-}
-
-#tribute-info p {
-  text-align: center;
-}
-
-#tribute-info span {
-  font-weight: bolder;
-}
-
-#tribute-link{
-  font-size: 20px;
-  text-decoration: none;
-  padding: 50px;
-}
-
-#tribute-link:hover {
-  color:blue;
+  align-items: center;
+  padding-bottom: 20px;
 }
